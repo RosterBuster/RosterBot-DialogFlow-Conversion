@@ -1,5 +1,5 @@
 {
-	"name": "Rosterbuster/dialogflow-conversion",
+	"name": "rosterbuster/dialogflow-conversion",
 	"description": "Merge a production (with training) and development agent (with older training/no training) together",
 	"keywords": ["Dialogflow", "Merge", "Agents"],
 	"license": "MIT",
