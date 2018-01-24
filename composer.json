@@ -1,0 +1,24 @@
+{
+	"name": "Rosterbuster/dialogflow-conversion",
+	"description": "Merge a production (with training) and development agent (with older training/no training) together",
+	"keywords": ["Dialogflow", "Merge", "Agents"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Jaco van den Bosch",
+			"email": "jacovdboschjr@gmail.com"
+		}
+	],
+	"require": {
+		"ext-zip": "*",
+        "symfony/console": "~3.0|~4.0"
+    },
+    "autoload": {
+    	"psr-4": {
+    		"Rosterbuster\\Dialogflow\\": "src/"
+    	}
+    },
+    "bin": [
+    	"dfmerger"
+    ]
+}
